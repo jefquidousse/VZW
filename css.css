@@ -1,0 +1,151 @@
+/*css algemeen*/
+
+#terug{
+    padding-left: 100px;
+    padding-top: 20px
+}
+
+
+
+body{
+    width: 100%;
+    margin: auto;
+    font-family: "avenir", sans-serif;
+    background: #f3f3f3;
+}
+
+
+nav{
+    font-family: "bebas neue regular", sans-serif;
+    font-weight: bold;
+    width: 100%;
+    height: 100px;
+    vertical-align:text-bottom;
+    text-align: center;   
+    
+}
+
+nav a{
+    color: black;
+    text-decoration-line: none;
+    padding: 20px;  
+}
+
+
+
+
+
+
+
+/*css index*/
+body .index {
+    background-image: url("IMG_022222.jpg");
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+    align-content: center;
+    height: 500px
+}
+
+
+h4{
+    font-family: "bebas neue regular", sans-serif;
+    color: #EBB400;
+    padding: 10px 160px 10px 160px;
+
+}
+h2{
+    font-family: "bebas neue regular", sans-serif;
+    color: #EBB400;
+    padding: 10px 160px 10px 160px;
+
+}
+
+.intro{
+    padding: 10px 160px 10px 160px;
+    margin-bottom: 30px;
+}
+
+.form{
+    padding: 10px 160px 10px 160px;
+    margin-bottom: 30px;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.projects a{
+    text-decoration: none;
+    color: black;
+}
+
+.rental{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    grid-column-gap: 30px;
+    grid-row-gap: 15px;
+    padding: 10px 160px 10px 160px;
+}
+.form div{
+    padding: 10px;
+}
+/*css meadow*/
+
+.video{
+    background-color: black;
+    right: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.info{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+}
+
+#beer{
+    padding-top: 15px;
+    text-align: center;
+}
+
+#music{
+    text-align: center;
+}
+
+#artiesten{
+    
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    align-content: center;
+    height: 200px;
+}
+
+/*css funktional*/
+.funktional{
+    background-image: url(funktionalAchtergrond.jpg);
+    background-size:cover;
+    height: 500px;
+}
+.foto{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
